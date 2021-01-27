@@ -1,5 +1,5 @@
 # JavaLatianUjiSkema
-Java project for fun and training \n
+Java project for fun and training
 Scope to Person for class, or Statistical for interface
 
 # Class
