@@ -14,7 +14,14 @@ public class Guru extends Person {
     
     @Override
     public void infoPerson() {
-        System.out.println(this.nama + "\n" + this.kelas + "\n" + this.NIP + "\n" + this.namaMapel);
+        try {
+            System.out.println("Nama \t: " + this.nama);
+            System.out.println("Kelas\t: " + this.kelas);
+            System.out.println("NIP  \t: " + this.NIP);
+            System.out.println("Mapel\t: " + this.namaMapel);
+        } catch (NullPointerException ex) {
+            System.out.println(ex);
+        }
     }
     
     public String getNamaMapel() {

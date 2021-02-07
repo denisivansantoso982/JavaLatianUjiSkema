@@ -1,5 +1,5 @@
 package Person;
-import Statistical.Statistical;
+import Interface.Statistical;
 import java.util.*;
 
 public class Siswa extends Person implements Statistical {

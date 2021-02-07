@@ -4,7 +4,7 @@ public class Person {
     protected String nama;
     
     public Person() {
-        this.nama = "";
+        this.nama = null;
     }
     
     public void infoPerson() {

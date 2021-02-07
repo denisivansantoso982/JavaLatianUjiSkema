@@ -1,4 +1,4 @@
-package Statistical;
+package Interface;
 
 import Person.Siswa;
 
